@@ -6,3 +6,14 @@ generator client {
 datasource db {
     provider = "postgresql"
 }
+
+model Stock {
+  id Int @id @default(autoincrement())
+  date String
+  open Float?
+  high Float?
+  low Float?
+  close Float?
+  volume Float?
+  openInt Float?
+}
