@@ -9,11 +9,12 @@ datasource db {
 
 model Stock {
   id Int @id @default(autoincrement())
-  date String
-  open Float?
-  high Float?
-  low Float?
-  close Float?
-  volume Float?
-  openInt Float?
+  stockName String
+  date DateTime
+  open Float
+  high Float
+  low Float
+  close Float
+  volume Float
+  openInt Float
 }
