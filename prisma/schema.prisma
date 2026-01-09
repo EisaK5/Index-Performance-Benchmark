@@ -15,6 +15,6 @@ model Stock {
   high Float
   low Float
   close Float
-  volume Float
+  volume Int
   openInt Float
 }
